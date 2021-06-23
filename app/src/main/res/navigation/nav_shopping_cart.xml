@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/allMoviesFragment"
-        android:name="com.lupesoft.mvcpattern.controller.fragments.AllMoviesFragment"
+        android:name="com.lupesoft.mvcpattern.movies.controller.fragments.AllMoviesFragment"
         android:label="@string/all_movies">
         <action
             android:id="@+id/action_allMoviesFragment_to_aboutOfMovieFragment"
@@ -14,11 +14,11 @@
     </fragment>
     <fragment
         android:id="@+id/aboutOfMovieFragment"
-        android:name="com.lupesoft.mvcpattern.controller.fragments.AboutOfMovieFragment"
+        android:name="com.lupesoft.mvcpattern.movies.controller.fragments.AboutOfMovieFragment"
         android:label="AboutOfMovieFragment" />
     <fragment
         android:id="@+id/shoppingCartFragment"
-        android:name="com.lupesoft.mvcpattern.controller.fragments.ShoppingCartFragment"
+        android:name="com.lupesoft.mvcpattern.cart.controller.fragments.ShoppingCartFragment"
         android:label="@string/shopping_car">
         <action
             android:id="@+id/action_shoppingCartFragment_to_aboutOfMovieFragment"
